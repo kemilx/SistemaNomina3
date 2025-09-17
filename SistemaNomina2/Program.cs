@@ -21,19 +21,18 @@ internal class Program
             switch (opt)
             {
                 case "1":
-                    RegistrarEmpleado(); // Agrega un nuevo empleado
+                    RegistrarEmpleado(); 
                     break;
 
                 case "2":
-                    EditarEmpleado(); // Actualiza los datos de un empleado existente
-                    break;
+                    EditarEmpleado(); 
 
                 case "3":
-                    Reporte(); // Muestra todos los empleados y su pago semanal
+                    Reporte(); 
                     break;
 
                 case "4":
-                    return; // Sale del programa
+                    return; 
 
                 default:
                     Console.WriteLine("Opción no válida, intenta de nuevo.");
